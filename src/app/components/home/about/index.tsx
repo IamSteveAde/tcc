@@ -123,7 +123,7 @@ export default function AboutConference() {
           <div className="overflow-hidden rounded-2xl shadow-2xl">
 
             <img
-              src="/images/gallery/2.jpg"
+              src="/images/gallery/bg1.jpg"
               alt="Conference"
               className="w-full h-[500px] object-cover transition duration-700 group-hover:scale-105"
             />

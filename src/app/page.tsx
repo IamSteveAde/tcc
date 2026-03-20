@@ -13,7 +13,7 @@ import Convener from "./components/convener";
 import CTAS from "./components/ctas";
 
 // Global components
-import AudioWelcome from "./components/AudioWelcome";
+
 
 /* -------------------------------------
    METADATA — TCC 2026
@@ -86,7 +86,7 @@ export default function Home() {
   return (
     <main>
       {/* Audio welcome — brief, professional, plays once per visit */}
-      <AudioWelcome />
+     
 
       {/* Core hero & positioning */}
       <Hero />

@@ -179,27 +179,27 @@ export default function GallerySection() {
               className="group"
             >
 
-              <div className="relative overflow-hidden rounded-xl">
+              <div className="relative overflow-hidden rounded-xl bg-[#0a0a3a]">
 
-                <img
-                  src={s.img}
-                  alt={s.name}
-                  className="w-full h-[260px] object-cover transition duration-700 group-hover:scale-110"
-                />
+  <img
+    src={s.img}
+    alt={s.name}
+    className="w-full h-[260px] object-contain object-top transition duration-700 group-hover:scale-105"
+  />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-                {/* TEXT */}
-                <div className="absolute bottom-4 left-4 right-4">
-                  <h4 className="text-sm text-[#FF9500] font-semibold">
-                    {s.name}
-                  </h4>
-                  <p className="text-xs text-white/70">
-                    {s.role}
-                  </p>
-                </div>
-              </div>
+  {/* TEXT */}
+  <div className="absolute bottom-4 left-4 right-4">
+    <h4 className="text-sm text-[#FF9500] font-semibold">
+      {s.name}
+    </h4>
+    <p className="text-xs text-white/70">
+      {s.role}
+    </p>
+  </div>
 
+</div>
             </motion.div>
           ))}
         </div>

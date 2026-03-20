@@ -187,10 +187,10 @@ export default function TicketSection() {
       {/* ================= FINAL CTA ================= */}
       <div className="mt-16 text-center">
         <a
-          href="https://tix.africa/discover/the-career-core-conference-2026"
+          href="mailto:thecareercoreconference@gmail.com"
           className="inline-block rounded-full bg-[#004CFE] px-10 py-4 text-white font-medium transition hover:scale-105 hover:bg-[#003ad6]"
         >
-          Grab Your Ticket Now
+          Partner with us at TCC 2026
         </a>
       </div>
 
