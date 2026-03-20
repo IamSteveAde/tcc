@@ -84,7 +84,7 @@ export default function PremiumHero() {
               exit={{ opacity: 0, y: -40 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
             >
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight tracking-tight">
+              <h1 className="text-4xl text-white md:text-6xl font-bold leading-tight tracking-tight">
 
                 {slides[index].title}
 
