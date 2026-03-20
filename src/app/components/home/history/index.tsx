@@ -38,7 +38,7 @@ const speakers = [
   },
   {
     name: "Olayinka Oyetunji",
-    role: "CFA Charterholder",
+    role: "CFA, Charterholder CFA Institute",
     img: "/images/speakers/yinka.jfif",
   },
   {
@@ -48,7 +48,7 @@ const speakers = [
   },
   {
     name: "Oyinda Akinyemi",
-    role: "Standard Chartered Bank",
+    role: "Head, Equity Capital Market for Africa Regions, Standard Chartered Bank",
     img: "/images/speakers/oyinda.jpg",
   },
    {
